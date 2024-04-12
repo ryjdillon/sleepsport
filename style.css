@@ -1,0 +1,97 @@
+/* Colors: #433A3F (dark purple); #704C5E (purple); #84B59F (light teal); #69A297 (darker teal); #50808E (blue) */
+
+html {
+    background-color: #433A3F;
+}
+
+h1 {
+    font-family: abadi, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+h2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; 
+    width: 250px;
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #704C5E;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22.5px;
+    color: #69A297;
+    display: block;
+    /* border: 2px solid #69A297;
+    border-radius: 5px;
+    width: 150px; */
+}
+
+.sidenav a:hover {
+    color: #84B59F;
+}
+
+.sidenav h1 {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #50808E;
+    display: block;
+}
+
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+th {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #704C5E;
+}
+
+td {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    background-color: lightgrey;
+}
+
+th, td {
+    padding: 15px;
+  }
