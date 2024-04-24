@@ -5,7 +5,7 @@ html {
 }
 
 .active {
-    color: white;
+    background-color: #433A3F;
 }
 
 h1 {
@@ -79,17 +79,18 @@ p {
 table, th, td {
     border: solid 5px #704C5E;
     border-collapse: collapse;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: 100px;
     margin-top: 100px;
+    margin-bottom: 100px;
   }
 
 th {
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 540;
     font-size: 20px;
-    background-color: #704C5E;
+    background-color: #50808E;
     color: white;
 }
 
@@ -145,8 +146,8 @@ input {
 
 .first {
     float: left;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 20px;
     padding: 10px 50px 10px 50px;
     border: solid 5px #704C5E;
     border-radius: 3px;
@@ -154,8 +155,18 @@ input {
 
 .second {
     float: left;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 50px 10px 50px;
+    border: solid 5px #704C5E;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.third {
+    float: left;
+    margin-right: 100px;
+    margin-left:20px;
     padding: 10px 50px 10px 50px;
     border: solid 5px #704C5E;
     border-radius: 3px;
@@ -175,13 +186,40 @@ input {
 div.tooltip {
     position: absolute;
     text-align: center;
-    width: 80px;
-    height: 20px;
+    width: 40px;
+    height: 22px;
     padding: 2px;
-    font: 12px arial;
+    font: 20px arial;
     background: white;
-    border: 0px;
+    border: solid 2px #704C5E;
     border-radius: 8px;
     pointer-events: none;    
-     font-family: brandon-grotesque, sans-serif; 
+    font-family: brandon-grotesque, sans-serif; 
+}
+
+.logout {
+    margin-top: 300px;
+    color: black;
+    border: 5px solid #433A3F;
+    font-size: 20px;
+    margin-left: 50px;
+    background-color: #50808E;
+}
+
+.opt_button {
+    background-color: #50808E;
+    font-size: 12px;
+    border: 1px solid #433A3F;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.submit_button {
+    background-color: #50808E;
+    font-size: 20px;
+    border: 1px solid #433A3F;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 200;
 }
